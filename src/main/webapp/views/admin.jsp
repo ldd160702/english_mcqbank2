@@ -30,6 +30,7 @@ All users logs: <a href="${pageContext.request.contextPath}/admin/allLogs">Link<
 </c:if>
 <hr>
 
+
 <hr>
 <form:form action="${pageContext.request.contextPath}/logout" method="post">
     <%--    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}">--%>
